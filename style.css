@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* flex-direction: column; this stacks items on top of each other horizontally */
+
+
+.flex-container-6 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: end;
+  align-items: center;
+}
+
+.item6 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  color: black;
+  margin: 10px;
+}
+
+/* flex-direction: cThe column-reverse value stacks the flex items vertically (but from bottom to top):
+ */
+
+
+.flex-container-7 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: red;
+/* justify content is vertical-align: depending on row or column */
+  justify-content: center;
+  /* align-items: is aligned horizontally depending on row or column */
+  align-items: center;
+}
+
+
+.item7 {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  color: black;
+  margin: 10px;
+}
+
+
+/* How to center items within a div  */
+
+.flex-container-8 {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.item8 {
+  width: 100px;
+  height: 100px;
+  background: black;
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+h3 {
+  text-align: center;
+}
